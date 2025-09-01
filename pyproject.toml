@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-oracle-template"
+version = "0.1.0"
+description = "Шаблон FastAPI с SOLID, DI, oracledb, централизованной оркестрацией"
+authors = ["You <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = { extras = ["standard"], version = "^0.30.0" }
+pydantic-settings = "^2.4.0"
+oracledb = "^2.0.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"\n
